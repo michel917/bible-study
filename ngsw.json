@@ -1,0 +1,77 @@
+{
+  "configVersion": 1,
+  "timestamp": 1777300493315,
+  "index": "/bible-study/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/bible-study/favicon.ico",
+        "/bible-study/index.html",
+        "/bible-study/main-5ESM66B5.js",
+        "/bible-study/manifest.webmanifest",
+        "/bible-study/styles-WX7XQMVW.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/bible-study/icons/icon-128x128.png",
+        "/bible-study/icons/icon-144x144.png",
+        "/bible-study/icons/icon-152x152.png",
+        "/bible-study/icons/icon-192x192.png",
+        "/bible-study/icons/icon-384x384.png",
+        "/bible-study/icons/icon-512x512.png",
+        "/bible-study/icons/icon-72x72.png",
+        "/bible-study/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/bible-study/favicon.ico": "e92ee54699c24bafa242bfb0e3c2dbb7eaa03907",
+    "/bible-study/icons/icon-128x128.png": "e92ee54699c24bafa242bfb0e3c2dbb7eaa03907",
+    "/bible-study/icons/icon-144x144.png": "e92ee54699c24bafa242bfb0e3c2dbb7eaa03907",
+    "/bible-study/icons/icon-152x152.png": "e92ee54699c24bafa242bfb0e3c2dbb7eaa03907",
+    "/bible-study/icons/icon-192x192.png": "e92ee54699c24bafa242bfb0e3c2dbb7eaa03907",
+    "/bible-study/icons/icon-384x384.png": "e92ee54699c24bafa242bfb0e3c2dbb7eaa03907",
+    "/bible-study/icons/icon-512x512.png": "e92ee54699c24bafa242bfb0e3c2dbb7eaa03907",
+    "/bible-study/icons/icon-72x72.png": "e92ee54699c24bafa242bfb0e3c2dbb7eaa03907",
+    "/bible-study/icons/icon-96x96.png": "e92ee54699c24bafa242bfb0e3c2dbb7eaa03907",
+    "/bible-study/index.html": "665ec4bd673b02aa3bbe3c3992b40be08ecc3b15",
+    "/bible-study/main-5ESM66B5.js": "e37fd2a0579c6a3841ab53d9dfe507dd82ca456c",
+    "/bible-study/manifest.webmanifest": "e96d497591883493647f9b2a1cbcd15669078310",
+    "/bible-study/styles-WX7XQMVW.css": "1993d591296508fe599ea1d8b6bced947bcef5c0"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
